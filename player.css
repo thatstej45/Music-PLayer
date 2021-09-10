@@ -448,3 +448,76 @@ aside{
     width: 20px;
     margin: 10px;
 }
+
+
+/* footer  */
+#footerfiller{
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+    position: fixed;
+    top: 92%;
+    display: flex;
+    flex-direction: row;
+}
+#blankspace{
+    width: 10%;
+    height: 100%;
+    background-color: aqua;
+}
+#songg-logoo{
+    height: 40px;
+    width: 40px;
+    background-color: blueviolet;
+    margin: 10px;
+
+}
+
+#songg-title{
+    height: 30px;
+    width: 150px;
+    background-color: blueviolet;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+#iheartthingy{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    margin: 15px;
+
+}
+#iheartthingy img{
+    height: 20px;
+    width: 20px;
+   margin: 5px;
+   
+}
+#blankspace2{
+    width: 6%;
+    height: 100%;
+    background-color: aqua;
+}
+#progressbar{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(87, 99, 99);
+}
+#picons{
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 2px;
+    
+
+}
+#picons img{
+    height: 20px;
+    width: 20px;
+   margin: 5px;
+   
+}
