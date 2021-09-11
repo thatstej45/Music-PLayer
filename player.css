@@ -454,7 +454,7 @@ aside{
 #footerfiller{
     width: 100%;
     height: 60px;
-    background-color: blue;
+    background-color: #282828;
     position: fixed;
     top: 92%;
     display: flex;
@@ -463,29 +463,41 @@ aside{
 #blankspace{
     width: 10%;
     height: 100%;
-    background-color: aqua;
+    background-color: #282828;
 }
 #songg-logoo{
     height: 40px;
     width: 40px;
-    background-color: blueviolet;
+ 
     margin: 10px;
+    border-radius: 5px;
 
 }
-
+#songg-logoo img{
+    height: 40px;
+    width: 40px;
+}
 #songg-title{
     height: 30px;
     width: 150px;
-    background-color: blueviolet;
+
     margin-top: 15px;
     margin-bottom: 15px;
-
 }
-
+#songg-title div{
+    margin-top: -25px;
+}
+#songg-title div h4{
+    color: antiquewhite;
+}
+#songg-title div p{
+    margin-top: -20px;
+    color:#aaaaaa;
+}
 #iheartthingy{
     height: 30px;
     width: 30px;
-    background-color: blueviolet;
+    background-color: #282828;
     margin: 15px;
 
 }
@@ -498,17 +510,114 @@ aside{
 #blankspace2{
     width: 6%;
     height: 100%;
-    background-color: aqua;
+    background-color: #282828;
 }
 #progressbar{
     width: 35%;
     height: 100%;
-    background-color: rgb(87, 99, 99);
+  
+    display: flex;
+    flex-direction: row;
 }
+#bs3{
+    width: 100%;
+    height: 70%;
+    background-color: #282828;
+}
+#timeeey{
+    width: 100%;
+    height: 30%;
+  
+}
+#time-ellapsed{
+    width: 10%;
+    height: 100%;
+
+}
+#controlller{
+    width: 80%;
+    height: 100%;
+  
+}
+#controlss{
+    height: 70%;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+}
+#actual-buttons{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#bs4{
+    width: 25%;
+    height: 100%;
+    background-color: #282828;
+}
+
+
+#pi6{
+    height: 100%;
+    width: 18%;
+    background-color: #282828;
+}
+#pi6 img{
+    height: 15px;
+    width: 15px;
+    margin-top: 13px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+#pi5{
+    height: 100%;
+    width: 28%;
+    background-color: #282828;
+}
+#pi5 img{
+    height: 35px;
+    width: 35px;
+    margin-top: 4px;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+#actual-buttons{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(83, 110, 55);
+}
+#music-slider{
+    height: 30%;
+    width: 100%;
+    background-color: #282828;
+}
+#music-slider form{
+    text-align: center;
+}
+#music-slider form input{
+    margin-top: -7px;
+    
+}
+#blankspace2 form{
+    text-align: center;
+}
+#blankspace2 form input{
+    margin-top: 15px;
+    
+}
+
+#tottal-time{
+    width: 10%;
+    height: 100%;
+ 
+}
+
 #picons{
     height: 30px;
     width: 30px;
-    background-color: blueviolet;
+    
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 2px;
@@ -520,4 +629,7 @@ aside{
     width: 20px;
    margin: 5px;
    
+}
+#timeeey{
+    color: #aaaaaa;
 }
